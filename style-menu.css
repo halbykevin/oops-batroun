@@ -41,7 +41,7 @@ body {
   height: 10px;
   width: 10px;
   border-radius: 50%;
-  background-color: white;
+  background-color: rgb(110, 108, 108);
   margin: 0 5px;
   cursor: pointer;
 }
@@ -102,6 +102,7 @@ body {
 
 /* Style for each menu button */
 .menu-item {
+  text-transform: uppercase;
   font-family: "bellmt";
   display: inline-block;
   background-color: white;
@@ -150,6 +151,7 @@ body {
 }
 
 .item-title {
+  text-transform: uppercase;
   font-family: "bell mt"; /* Change to the font you want */
   font-size: 15px; /* Adjust the size as needed */
   font-weight: bold; /* Make the title bold */
